@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Exemplo 1 Tanble </title>
+	</head>
+	<body>
+		<!-- table => tabela -->
+		<!-- iniciando uma tabela -->
+		<Table border="1" width="100%">
+			<!-- thead -> Tanble thead cabeçario da tabela -->
+			<thead style="background-color: blue; color: #FFF;">
+				<!-- criando a primeira linha -->
+				<!-- linha da tabela -> Tanble row -> -->
+				<tr>
+					<!-- th -> tenble head -> cabeçalho -->
+					<th>Diciplina</th>
+					<th>nota 1</th>
+					<th>nota 2</th>
+					<th>nota 3</th>
+					<th>nota 4</th>
+					<th>média</th>
+				</tr>
+			</thead>
+			<!-- tbody -> table -> corpo da tabela -->
+			<tbody>
+				<!-- criando a segunda linha -->
+				<!-- linha da tabela -> table row -> tr -->
+				<tr>
+					<td>Matematica</td>
+					<td>10,0</td>
+					<td>9,0</td>
+					<td>8,0</td>
+					<td>7,0</td>
+					<td>8,5</td>
+				</tr>
+				
+				<!-- criando a terceira linha linha -->
+				<!-- linha da tabela -> table row -> tr -->
+				<tr>
+					<td>português</td>
+					<td>9,5</td>
+					<td>10,0</td>
+					<td>8,0</td>
+					<td>8,5</td>
+					<td>9,0</td>
+				</tr>
+				<tr>
+					<!-- criando a quarta linha -->
+					<th colspan="6" style="background-color: red; color: #FFF;">>SENAI</th>
+				</tr>
+				
+				<!-- criando a quinta linha -->
+				<tr>
+					<th>disiplina</th>
+					<th colspan="2">1° semestre</th>
+					<th colspan="2">2° semestre</th>
+					<th>média</th>
+				</tr>
+				
+				<!-- criando a sexta linha -->
+				<tr>
+					<td>Logica de programação</td>
+					<td>9,0</td>
+					<td>9,0</td>
+					<!-- rowspan -> mesclar linhas -->
+					<td rowspan="2">-</td>
+					<td rowspan="2">-</td>
+					<td>9,0</td>
+				</tr>
+				
+				<!-- criandoa setima linha -->
+				<tr>
+					<td>levantamentos de requisitos</td>
+					<td>9,0</td>
+					<td>8,0</td>
+					<!-- temos que apagar as linhas que serão mescladas-->
+					<!-- <td>-</td> -->
+					<!-- <td>-</td> -->
+					<td>8,5</td>
+				</tr>
+				
+				<!-- criando a oitava linha -->
+				<tr>
+					<td>Banco de dados</td>
+					<td rowspan="2">-</td>
+					<td rowspan="2">-</td>
+					<td>8,0</td>
+					<td>10,0</td>
+					<td>9,0</td>
+				</tr>
+				<tr>
+					<td>linguagem de marcação</td>
+					<!-- <td>-</td> -->
+					<!-- <td>-</td> -->
+					<td>8,0</td>
+					<td>10,0</td>
+					<td>9,0</td>
+				</tr>
+				
+				<!-- criando a decima linha -->
+				<tr style="background-image: url('https://img.magnific.com/fotos-gratis/textura-de-papel-branco-da-listra-para-o-fundo_1373-115.jpg?semt=ais_hybrid&w=740&q=80');">
+					<th colspan="5">Média total</th>
+					<th>9,0</th>
+				</tr>
+			</tbody>
+		</Table>
+	</body>
+</html>
